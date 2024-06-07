@@ -1,0 +1,76 @@
+#
+#
+#
+#  ,---,.     ,---,.                                         ___
+#  ,'  .' |   ,'  .'  \                                      ,--.'|_
+#    ,---.'   | ,---.' .' |    ,---.      ,---.                  |  | :,'               __  ,-.
+#      |   |   .' |   |  |: |   '   ,'\    '   ,'\    .--.--.      :  : ' :             ,' ,'/ /|   .--.--.
+#    :   :  |-, :   :  :  /  /   /   |  /   /   |  /  /    '   .;__,'  /      ,---.   '  | |' |  /  /    '
+#    :   |  ;/| :   |    ;  .   ; ,. : .   ; ,. : |  :  /`./   |  |   |      /     \  |  |   ,' |  :  /`./
+#      |   :   .' |   :     \ '   | |: : '   | |: : |  :  ;_     :__,'| :     /    /  | '  :  /   |  :  ;_
+#      |   |  |-, |   |   . | '   | .; : '   | .; :  \  \    `.    '  : |__  .    ' / | |  | '     \  \    `.
+#    '   :  ;/| '   :  '; | |   :    | |   :    |   `----.   \   |  | '.'| '   ;   /| ;  : |      `----.   \
+#      |   |    \ |   |  | ;   \   \  /   \   \  /   /  /`--'  /   ;  :    ; '   |  / | |  , ;     /  /`--'  /
+#      |   :   .' |   :   /     `----'     `----'   '--'.     /    |  ,   /  |   :    |  ---'     '--'.     /
+#      |   | ,'   |   | ,'                            `--'---'      ---`-'    \   \  /              `--'---'
+#      `----'     `----'                                                       `----'
+#
+#                             .__        ____
+#       _____ __  _  __ ____ |  |       /  _ \        ______ ____   ______  _  _____.__.
+#       \__  \\ \/ \/ _/ __ \|  |       >  _ </\     /  ___//    \ /  _ \ \/ \/ <   |  |
+#        / __ \\     /\  ___/|  |_     /  <_\ \/     \___ \|   |  (  <_> \     / \___  | and jayden
+#       (____  /\/\_/  \___  |____     \_____\ /     ____  |___|  /\____/ \/\_/  / ____|
+#            \/            \/              \/         \/     \/               \/
+#
+
+# Please check your YAML before saving! Any errors will result in the plugin being broken
+# If support is needed, please join the discord and create a ticket @ discord.gg/dupe
+# Placeholders: %p% - Prefix
+
+prefix: "&7[<##e8cb61>EpicBoosters&7]"
+config-reload: "%p% &fConfiguration reloaded"
+jsonError: "&cAn JSON error has occurred."
+
+insufficient-permissions: "%p% &fInsufficient permissions!"
+admin-permission-node: EpicBoosters.admin
+user-permission-node: EpicBoosters.user
+
+grantBoosterUsage: "&cUsage: /grantbooster <player> <booster> <multiplier> <time past seconds> [amount]"
+boosterAdminUsage: "&cUsage: /boosteradmin <stop:reload>"
+
+
+invalid-player: "&cThat player does not exist!"
+invalid-integer: "&cInvalid integers!"
+
+store-link: https://example.com
+
+no-boostName: "&cNo Boosters"
+
+# Placeholders: %store-link% - Store link %amount% Amount of booster %time% Time on booster %multiplier% Multiplier of booster
+no-boostersDescription:
+    - ""
+    - "<##e8cb61>❙ &fGlobal boosters are a great way to boost"
+    - "<##e8cb61>❙ &fplayer farms & boost grinding."
+    - ""
+    - "<##e8cb61>❙ &fAcquire one at <##e8cb61>&n%store-link%"
+    - ""
+boostersDescription:
+    - " "
+    - "<##e8cb61>❙ &fAmount:<##e8cb61> %amount%"
+    - "<##e8cb61>❙ &fTime:<##e8cb61> %time%"
+    - "<##e8cb61>❙ &fMultiplier:<##e8cb61> %multiplier%x"
+    - " "
+    - "&aClick to activate"
+
+boosterStopped: "%p% &fStopped current global multiplier."
+boosterAlreadyActive: "%p% &fThere is an global booster already active."
+
+
+closeName: "&c&lCLOSE"
+nextPageName: "&7&oNext page"
+previousPageName: "&7Previous page"
+
+# Placeholders: %player% - player %type% - booster type %time% time for booster %amount% how many of booster
+grantedBooster: "%p% &fSuccessfully granted a &ex%amount% %type% Booster &7(%multi%x multi) &fto %target% &ffor &b%time%&f."
+boosterGiven: "%p% &fYou received a &6x%amount% %type% Booster &7(%multi%x multi) &f lasts &b%time%&f!"
+bossbarMessage: "<##5fe364>&lGLOBAL BOOSTER ACTIVE: &f%player%'s %multi%x %type% Booster &7(%time% left)"

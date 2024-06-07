@@ -1,0 +1,15 @@
+name: EpicBoosters
+version: '${version}'
+main: gg.minecrush.boosters.Boosters
+api-version: '1.20'
+author: "awel, snowy, jayden"
+website: discord.gg/dupe
+commands:
+  boosters:
+    description: check and activate boosters
+    aliases:
+      - booster
+  grantbooster:
+    description: grant boosters to players
+  boosteradmin:
+    description: booster administration command.
